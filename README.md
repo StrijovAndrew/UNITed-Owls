@@ -15,9 +15,9 @@
 
 # Backend 
 
-Весь Backend находиться в папке **Backend**<br>
-<br>
 **profile.html** - Визуал профиля со стороны Beckend<br>
 **urls.py** - Связка пользователя и бд<br>
 **views.py** - Связка вход-страница<br>
+<br>
+Весь Backend находиться в папке **Backend**<br>
 
