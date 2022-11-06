@@ -51,7 +51,7 @@ input:focus {
   font-size: 64px;
   line-height: 75px;
   background: -webkit-linear-gradient(left, #2CD87F 50%, #FFFFFF  50%);
-  -webkit-background-clip: text;
+ -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   margin-bottom: 20px;
   text-align: center;

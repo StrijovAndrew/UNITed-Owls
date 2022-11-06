@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main{
+    background: #F5F5F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .startup-container-title{
+    position: relative;
+    width: 840px;
+    height: 100px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-top: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+  }
+
+  .startup-container-discription{
+    position: fixed;
+    top: 135px;
+    left: 516px;
+    width: 710px;
+    height: 670px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding-top: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .startup-container-adm-icon{
+    position: fixed;
+    top: 135px;
+    right: 516px;
+    width: 110px;
+    height: 110px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .button_adm_profile{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid #1A1755;
+    background-color: #1A1755;
+  }
+
+  .button_adm_profile:hover{
+    background: #3D36C7;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .startup-container-chat-icon{
+    position: fixed;
+    top: 265px;
+    right: 516px;
+    width: 110px;
+    height: 110px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .button_chat{
+    text-decoration: none;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: #2CD87F;
+    border-radius: 50%;
+    overflow:hidden;
+  }
+
+  .button_chat:hover{
+    background: #00FF7B;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .startup-container-member-icon{
+    position: fixed;
+    top: 385px;
+    right: 516px;
+    width: 110px;
+    height: 428px;
+    background: #ffffff;
+    border-radius: 15px;
+    padding: 10px;
+  }
+
+  .button_member_profile{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 10px;
+    border: 1px solid #1A1755;
+    background-color: #1A1755;
+  }
+
+  .button_member_profile:hover{
+    background: #3D36C7;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .right_menu{
+    position: fixed;
+    top: 15px;
+    right: 435px;
+  }
+
+  .button_menu{
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background-color: #2CD87F;
+  border-radius: 50%;
+  position: relative;
+  overflow:hidden;
+  }   
+  
+  .button_menu:hover{
+    background: #00FF7B;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+  .startup-title{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #1A1755;
+    text-align: center;
+  }
+
+  .startup-discription{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #A3A3A3;
+    display: flex;
+  align-items: center;
+  text-align: center;
+    padding: 20px;
+  }

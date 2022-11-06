@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main{
+    background: #F5F5F5;
+    height: 120vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .button_startup_icon{
+    display: inline;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 1px solid #1A1755;
+    background-color: #1A1755;
+    float: right;
+  }
+
+  .startup-container{
+    position: relative;
+    width: 555px;
+    height: 310px;
+    background: #FFFFFF;
+    border-radius: 15px;
+    margin-top: 25px;
+    padding-top: 22px;
+    padding-left: 50px;
+    padding-right: 50px;
+    align-items: center;
+  }
+
+  .startup-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #1A1755;
+    text-align: center;
+  }
+
+  .startup-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #A3A3A3;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .right_menu{
+    position: fixed;
+    top: 15px;
+    right: 570px;
+  }
+
+  .button_menu{
+  text-decoration: none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  width: 50px;
+  height: 50px;
+  margin: 20px;
+  background-color: #2CD87F;
+  border-radius: 50%;
+  position: relative;
+  overflow:hidden;
+  }   
+  
+  .button_menu:hover{
+    background: #00FF7B;
+    border-radius: 50px;
+    transition: 1s;
+  }
+
+
+

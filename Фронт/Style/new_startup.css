@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  main{
+    background: #F5F5F5;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    color: #A3A3A3;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 25px;
+    width: 840px;
+  }
+  
+  input:focus {
+    outline: none;
+    border: 2px solid #00FF7B;
+  }
+
+  .form-field-name{
+    height: 100px;
+    text-align: left;
+  }
+
+  .form-field-description{
+    width: 840px;
+    height: 500px;
+    text-align: left !important;
+  }
+
+  .form-field-teg{
+    text-align: left;
+    height: 100px;
+  }
+
+  .form-field-description{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    display: flex;
+    color: #A3A3A3;
+    border: 2px solid #ffffff;
+    border-radius: 15px;
+    margin: 25px;
+  }
+
+  .form-field-description:focus {
+    outline: none;
+    border: 2px solid #00FF7B;
+  }
+
+  .button_сancel{
+    display: block;
+    height: 100px;
+    width: 410px;
+    background: #1A1755;
+    border-radius: 15px;
+    border: solid #1A1755;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 20px;
+  }
+
+  .button_create{
+    display: block;
+    height: 100px;
+    width: 410px;
+    background: #2CD87F;
+    border-radius: 15px;
+    border: solid #2CD87F;
+  
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 47px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+  }
+
+  .button_create:hover{
+    background: #00FF7B;
+    border-radius: 15px;
+    border: solid #00FF7B;
+    transition: 1s;
+  }
+  
+  .button_сancel:hover{
+    background: #3D36C7;
+    border-radius: 15px;
+    border: solid #3D36C7;
+    transition: 1s;
+  }
