@@ -1,0 +1,28 @@
+{% extends 'base.html %}
+
+{% block content %}
+
+{% if user.is_authenticated %}
+
+<h2>{% block title %} Profile {% endblock %}<h2>
+<p>Userame: {{ user }}</p>
+<p>Date of birth: {{ date_of_birth }}</p>
+<p>Country, city: {{ location }}</p>
+<p>Sex: {{ sex }}</p>
+<p>Email: {{ email }}</p>
+<p>Telegram: {{ telegram }}</p>
+<p>busyness: {{ busyness }}</p>
+<p>Work experience: {{ work_experience }}</p>
+<p>Skills: {{ skills }}</p>
+<p>Professional experience: {{ professional_experience }}</p>
+<p>Role in the team: {{ role_in_the_team }}</p>
+<p>Is the author of intellectual property objects (is there a patent)?(document details): {{ doc_1 }}</p>
+<p>Do you have your own company?(INN): {{ doc_inn }}</p>
+
+
+{% else %}
+
+<p>Login to view your details</p>
+
+{% endif %}
+{% endblock %}
