@@ -1,5 +1,5 @@
 # UNITed-Owls
-
+Прототип сайта - http://f0739097.xsph.ru/
 # Frontend
 
 **index.html** - Страница входа<br>
@@ -13,5 +13,9 @@
 <br>
 В папке **Style** находятся CSS файлы стилей сайта<br>
 
-# Backend
+# Backend 
+Весь Backend находиться в папке **Backend**
+**profile.html** - Визуал профиля со стороны Beckend
+**urls.py** - Связка пользователя и бд
+**views.py** - Связка вход-страница
 
