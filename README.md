@@ -1,6 +1,6 @@
 # UNITed-Owls
 
-**Frontend**
+# Frontend
 
 **index.html** - Страница входа<br>
 **reg.html** - Страница регистрации<br>
