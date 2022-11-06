@@ -1,6 +1,6 @@
 # UNITed-Owls
-Прототип сайта - http://f0739097.xsph.ru/
-Прототип в Figma - https://drive.google.com/file/d/1bdP6TjO7YWiIZq_kHrnI3cpT8sno5OpP/view?usp=sharing
+Прототип сайта - http://f0739097.xsph.ru/<br>
+Прототип в Figma - https://drive.google.com/file/d/1bdP6TjO7YWiIZq_kHrnI3cpT8sno5OpP/view?usp=sharing<br>
 # Frontend
 
 **index.html** - Страница входа<br>
